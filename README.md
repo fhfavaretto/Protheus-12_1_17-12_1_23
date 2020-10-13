@@ -13,16 +13,7 @@ O Application Server é um middleware preparado para a arquitetura SOA, e concei
 
 ## Passo 1: Instalação do banco de dados
 
-    Caso você tenha alguma instalação do SQL SERVER em sua maquina  basta criar um banco de dados vazio chamado TOTVS12 e uma conexão ODBC  64bits e pular para o passo 2 =].
+   **Caso você tenha alguma instalação do SQL SERVER em sua maquina**  basta criar um banco de dados vazio chamado TOTVS12 e uma conexão ODBC  64bits e pular para o passo 2.
 
-    ~~~javascript
-Esta é uma linha de código em Javascript.
-~~~
-
-~~~php
-Esta é uma linha de código em PHP.
-~~~
-
-~~~html
-Esta é uma linha de código em HTML.
-~~~
+    O Banco de Dados escolhido é o SQL Server Express Edition 2017 <É possivel utilizar outras versoes 2012 ou posteriores> (caso queira outro banco eu aconselho acessar o link TDN ). Para efetuar o download basta navegar no seguinte link SQL SERVER ou pesquisar no Google SQL Server Express.
+    
