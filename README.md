@@ -132,8 +132,83 @@ Bom para começarmos sugiro que você baixe o pacote que montei do TOTVS ERP, on
 
 Após ter baixado o arquivo favor descompactar e copiar a pasta **“TOTVS12”** para o **“C:\”.** Com os arquivos extraidos teremos a seguinte visão
 
+1. protheus
+2. protheus_data
+3. Totvs Dbacess x64
 
 
-![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-17.png)
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-18-e1532203987266.png?w=660)
+
+
+Abriremos a pasta **“Totvs DBAccess x64”** e dentro dela teremos o executável **“TOTVS 12 – DBAccess64.exe”** onde criaremos um atalho para execução em console, basta clicar com o botão direito do mouse e selecionar **criar atalho**
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-19.png?w=660)
+
+
+Com o atalho criado iremos clicar com o botão direito do mouse em cima de **“TOTVS 12 – DBAccess64.exe – Atalho”** e selecionar a opção **propriedades**
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-20.png?w=660)
+
+Na tela de propriedades na opção **“Destino:”** iremos ate o final após as aspas duplas e incluiremos o parâmetro do MS-DOS _windows_ conhecido como **“-CONSOLE”**
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-21.png?w=660)
+
+
+Após clicar em **“OK”** basta executar dois cliques no atalho criado e aparecera a mensagem do **“Windows Defender Firewall”**. Na qual devemos permitir a comunicação das redes para o Dbacess ser visto pelo Appserver e a comunicação ODBC, basta copiar a tela abaixo e clicar em **“permitir acesso”**
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-22.png?w=660)
+
+
+É temos o nosso DbAcess Online ✅
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-23.png?w=660)
+
+
+Logo em seguida iremos minimizar a tela do DbAcess64 e executaremos um duplo clique em **“DBMonitor.exe”**, aparecerá a tela de conexão do monitor onde informaremos o Servidor e a Porta. **“Servidor:localhost”** , **“Porta:7890”** depois é só clicar **“OK”** 
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-25.png?w=660)
+
+
+A senha para logar é **“Usuario:admin”** e a senha pode deixar em branco e clicar **“OK”** (lembrando que em Usuario o **“admin”** é minúsculo):
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-24.png?w=660)
+
+
+Informando a identificação aparecerá a tela inicial do **DBMonitor**
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-26.png?w=660)
+
+ lembra que a gente efetuou uma forma de conexão ODBC 64bits onde a autenticação é feita pelo usuário logado ? Com isso não precisamos ir em **“Configurações”** e depois **“Microsoft SQL”**  para configurar usuário e senha do banco. (Caso você já tenha o banco de dados instalado basta seguir os seguintes passos. Clicar na aba **“Configurações”** e depois na aba **“Microsoft SQL”** e depois no botão **“Novo”** e informar o nome igual da conexão ODBC 64bits e depois na caixa Usuário informar o nome e senha do usuário do banco de dados. **”_dica nome_ e usuário é o mesmo que você usa para acessar o SQL Server Management Studio”**)
+
+Após isso iremos acessar aba **“Assistentes”** para testar a conexão ODBC
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-29.png?w=660)
+
+
+Vamos clicar em **“Validação de Conexão”** e depois em **“Avançar”** e aparecerá a opção para escolhermos o banco de dados **“Microsoft SQL”**
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-30.png?w=660)
+
+
+Após clicar em **“Avançar”** vamos escrever o nome da instância criada na conexão ODBC 64bits, **“TOTVS12”:**
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-321.png?w=660)
+
+
+
+
+
+
 
 
