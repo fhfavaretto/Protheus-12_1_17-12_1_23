@@ -98,7 +98,42 @@ Irá aparecer uma tela revisando todos os dados de conexão ODBC
 
 ![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-14.png?w=660)
 
-Vamos clicar em **“Testar fonte de dados”** e se aparecer a seguinte mensagem _TESTES CONCLUIDOS COM ÊXITO!_ indica que você fez tudo corretamente: 
+Vamos clicar em **“Testar fonte de dados”** e se aparecer a seguinte mensagem _TESTES CONCLUIDOS COM ÊXITO!_ indica que você fez tudo corretamente
 
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-15.png?w=660)
+
+
+Clicamos em OK e depois OK e aparecerá a nossa queria conexão ODBC, favor guardar o nome dela  porque usaremos no **TOTVS DBACESS**
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-16.png)
+
+
+### Passo 1 concluido Agora iremos para a parte divertida
+
+
+# Passo 2: Configuração do nosso TOTVS DBACESS 64bits
+
+Bom para começarmos sugiro que você baixe o pacote que montei do TOTVS ERP, onde contem tudo para a gente configurar o ERP. O arquivo é um pouco pesado “799Mb” zipado em winrar e você não precisa ter uma conta do gmail. (TOTVS Protheus 12.1.17) ou (TOTVS Protheus 12.1.23)
+
+1. [TOTVS Protheus 12.1.17](https://drive.google.com/file/d/1nuhgcclm-DPwm4Ps4hQuLkvpdOBgd5Ik/view?usp=sharing)
+2. [TOTVS Protheus 12.1.23]()
+
+
+
+#### Observação
+
+
+1. Descompactar a pasta **TOTVS12** a pasta se encontra dentro da pasta TOTVS12_1_17 dependendo da forma ou do programa que utilizar
+2. O protheus só ira funcionar se estiver em **"C:\"**
+
+
+
+Após ter baixado o arquivo favor descompactar e copiar a pasta **“TOTVS12”** para o **“C:\”.** Com os arquivos extraidos teremos a seguinte visão
+
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-17.png)
 
 
