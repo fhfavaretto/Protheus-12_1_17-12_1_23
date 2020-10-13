@@ -52,3 +52,53 @@ Dentro da pasta Banco de Dados iremos criar o banco **“TOTVS12”** de forma b
 ![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-6.png?w=660)
 
 
+Com o banco configurado com sucesso, agora é hora de criarmos uma conexão ODBC com o nosso querido banco de dados **“TOTVS12”** para o **TOTVS DBACESS**, Vamos acessa o _painel de controle_ > _Ferramentas Administrativas:_
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-7.png?w=660)
+
+Logo em seguida a opção **“Fonte de Dados ODBC (64bits)”**
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-8.png?w=660)
+
+
+Após aberto, clicar em **“Adicionar”**
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-9.png?w=660)
+
+
+Iremos selecionar a opção **“SQL Server”**
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-10.png?w=660)
+
+
+Nessa parte temos que informar o nome para a conexão ODBC, eu utilizei  **“TOTVS12”** o mesmo do banco de dados porem você pode colocar o nome que mais lhe agrada como **“Producao ou desenv”** já na instância você deve seguir o padrão criado na instalação do banco o meu foi **“localhost\SQLEXPRESS01”** ou **“localhost\SQLEXPRESS”** que é mais comun
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-11.png?w=660)
+
+
+Nessa parte iremos informar o usuário de autenticação do banco. Na instalação básica é utilizado o usuário do Windows para ser o administrador do banco (_resumindo, logou com esse usuário na maquina Pode Realizar qualquer alteração dentro do banco de dados_), então é só selecionar **“Autenticação WINDOWS NT”**
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-12.png?w=660)
+
+
+Após clicar em avançar iremos marcar a opção **“Alterar o banco de dados padrão para”** e selecionaremos o nosso querido banco de dados **“TOTVS12”** e caso não estejam marcadas as opções favor selecionar **“Usar identificadores entre aspas ANSI”**  e  **“Usar nulos, preenchimentos e avisos ANSI”**
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-13.png?w=660)
+
+
+Irá aparecer uma tela revisando todos os dados de conexão ODBC
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-14.png?w=660)
+
+Vamos clicar em **“Testar fonte de dados”** e se aparecer a seguinte mensagem _TESTES CONCLUIDOS COM ÊXITO!_ indica que você fez tudo corretamente: 
+
+
+
