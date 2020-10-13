@@ -31,5 +31,24 @@ Após a instalação básica ser concluída, aparecera as informações do seu b
 
 ![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-32.png?w=660)
 
+Após isso iremos abrir o nosso banco de dados através do SQL Server Management Studio, na minha maquina estava instalado o 2012, segue link para download.  Feita a instalação iremos informar localhost\SQLEXPRESS em nome do servidor e na autenticação deixaremos a opção “Autenticação do Windows”
+
+1. [Microsoft® SQL Server® 2012 Express](https://www.microsoft.com/pt-br/download/details.aspx?id=29062&ranMID=24542&ranEAID=TnL5HPStwNw&ranSiteID=TnL5HPStwNw-Tw4bOq6_8wxpfO5dZTfzZQ&epi=TnL5HPStwNw-Tw4bOq6_8wxpfO5dZTfzZQ&irgwc=1&OCID=AID2000142_aff_7593_1243925&tduid=%28ir__vvhkeoklh9kfqn99kk0sohzjxu2xs2dix2dtccz300%29%287593%29%281243925%29%28TnL5HPStwNw-Tw4bOq6_8wxpfO5dZTfzZQ%29%28%29&irclickid=_vvhkeoklh9kfqn99kk0sohzjxu2xs2dix2dtccz300)
+2. [SSMS 18.6 **Versão Atualizada**](https://docs.microsoft.com/pt-br/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-4.png?w=660)
+
+
+Se tudo der certo irá aparecer a seguinte tela
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-5.png?w=660)
+
+
+Dentro da pasta Banco de Dados iremos criar o banco **“TOTVS12”** de forma bem padrão **para criar o banco basta clicar com o botão direito do mouse em cima de banco de dados e selecionar novo banco**
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-6.png?w=660)
 
 
