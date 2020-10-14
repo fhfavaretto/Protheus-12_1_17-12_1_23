@@ -1,4 +1,4 @@
-# Protheus-1.7-23-lobo-guara
+# Protheus-12_1_17 & 12_1_23
 
 ## Entendendo arquitetura TOTVS PROTHEUS 12
 
