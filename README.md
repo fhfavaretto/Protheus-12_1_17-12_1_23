@@ -118,7 +118,7 @@ Clicamos em OK e depois OK e aparecerá a nossa queria conexão ODBC, favor guar
 Bom para começarmos sugiro que você baixe o pacote que montei do TOTVS ERP, onde contem tudo para a gente configurar o ERP. O arquivo é um pouco pesado “799Mb” zipado em winrar e você não precisa ter uma conta do gmail. (TOTVS Protheus 12.1.17) ou (TOTVS Protheus 12.1.23)
 
 1. [TOTVS Protheus 12.1.17](https://drive.google.com/file/d/1nuhgcclm-DPwm4Ps4hQuLkvpdOBgd5Ik/view?usp=sharing)
-2. [TOTVS Protheus 12.1.23]()
+2. [TOTVS Protheus 12.1.23 **TUTORIAL DIFERNETE AO FINAL DESTE**](https://drive.google.com/file/d/1bp_3Mllb9_M4iMPbBNFDxUBEHkXxbtOL/view?usp=sharing)
 
 
 
