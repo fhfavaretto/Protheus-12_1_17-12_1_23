@@ -329,6 +329,42 @@ Irá aparecer a tela de conexão inicial do smartclient perguntando qual o progr
 ![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-42.png?w=660)
 
 
-Na tela de login é só informar que o usurário é “admin” e a senha pode deixar em branco e clicar em “Entrar”:
+Na tela de login é só informar que o usurário é “admin” e a senha pode deixar em branco e clicar em “Entrar”
 
 
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-44.png?w=660)
+
+
+
+Na tela de configuração irá aparecer a empresa 99 – TESTE com todos os ambientes disponíveis
+
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-45.png?w=660)
+
+
+Você deve informar qual seu pais, para o Protheus carregar o idioma
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-46.png?w=660)
+
+
+Logo em seguida e uma vez ao dia é perguntada as Taxas das Moedas, pode deixar zerada e apertar confirmar
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-47.png?w=660)
+
+
+Sistema logado com sucesso
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-48.png?w=660)
+
+
+
+Só por curiosidade abra o banco de dados “TOTVS12” e abra a pasta “Tabelas” e você verá todas as tabelas criadas pelo ERP
+
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-49.png?w=660)
+
+PRONTO PARA USO :)
