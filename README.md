@@ -369,12 +369,11 @@ Só por curiosidade abra o banco de dados “TOTVS12” e abra a pasta “Tabela
 
 PRONTO PARA USO :)
 
-
 # Download do Lobo-Guará (12.1.23)
 
 
- após efetuar o download vamos criar um banco de dados chamado **“PROTHEUS_LOBO_GUARA”** e configurar uma conexão ODBC caso tenha duvida do que seja tudo isso favor ler o seguintes instruçoes [Banco-config](https://github.com/fhfavaretto/Protheus-1.7-23-lobo-guara/blob/main/README.md#passo-1-instala%C3%A7%C3%A3o-do-banco-de-dados).
- O arquivo **“TOTVS_LG.rar”** pesa 550 Mb e nele tem tudo que você precisa para deixar o Lobo Online favor descompactar o arquivo no disco “C:”. Na pasta TOTVS_LG vamos ter as seguintes pastas
+ após efetuar o download vamos criar um banco de dados chamado **“PROTHEUS_LOBO_GUARA”** e configurar uma conexão ODBC caso tenha duvida do que seja tudo isso favor ler o seguintes instruçoes [Banco-configuracao](https://github.com/fhfavaretto/Protheus-1.7-23-lobo-guara/blob/main/README.md#passo-1-instala%C3%A7%C3%A3o-do-banco-de-dados).
+ O arquivo [TOTVS_LG.rar](https://drive.google.com/file/d/1bp_3Mllb9_M4iMPbBNFDxUBEHkXxbtOL/view?usp=sharing) pesa 550 Mb e nele tem tudo que você precisa para deixar o Lobo Online favor descompactar o arquivo no disco “C:”. Na pasta TOTVS_LG vamos ter as seguintes pastas
 
  ![](https://depurandoadvpl.files.wordpress.com/2019/05/lb01.png?w=660)
 
@@ -399,4 +398,3 @@ PRONTO PARA USO :)
  **Missão completa**
 
  ![](https://depurandoadvpl.files.wordpress.com/2019/05/lb06.png?w=660)
-
