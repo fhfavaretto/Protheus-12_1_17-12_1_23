@@ -368,3 +368,35 @@ Só por curiosidade abra o banco de dados “TOTVS12” e abra a pasta “Tabela
 ![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-49.png?w=660)
 
 PRONTO PARA USO :)
+
+
+# Download do Lobo-Guará (12.1.23)
+
+
+ após efetuar o download vamos criar um banco de dados chamado **“PROTHEUS_LOBO_GUARA”** e configurar uma conexão ODBC caso tenha duvida do que seja tudo isso favor ler o seguintes instruçoes [Banco-config](https://github.com/fhfavaretto/Protheus-1.7-23-lobo-guara/blob/main/README.md#passo-1-instala%C3%A7%C3%A3o-do-banco-de-dados).
+ O arquivo **“TOTVS_LG.rar”** pesa 550 Mb e nele tem tudo que você precisa para deixar o Lobo Online favor descompactar o arquivo no disco “C:”. Na pasta TOTVS_LG vamos ter as seguintes pastas
+
+ ![](https://depurandoadvpl.files.wordpress.com/2019/05/lb01.png?w=660)
+
+
+ O Lobo-Guará utiliza o Totvs  License e nesse arquivo esta configurado para a empresa 99 que é a versão de teste, só acessar o caminho **“C:\TOTVS_LG\License_TOTVS\bin\appserver”** e executar o atalho em ira subir em modo console, eu configurei com a port 7777 o license. O próximo passo é executar o atalho do DBacess “C:\TOTVS_LG\Totvs DBAccess x64” e do Protheus **“C:\TOTVS_LG\Protheus\bin\appserver”**
+
+
+ ![](https://depurandoadvpl.files.wordpress.com/2019/05/lb02.png?w=660)
+
+
+ Com os servidores online vamos executar o SmartClient **“C:\TOTVS_LG\Protheus\bin\smartclient”**
+
+ 
+ ![](https://depurandoadvpl.files.wordpress.com/2019/05/lb03.png)
+
+
+ ### Lembrando que o Usuário é admin e a Senha em branco
+
+ ![](https://depurandoadvpl.files.wordpress.com/2019/05/lb05.png?w=660)
+
+
+ **Missão completa**
+
+ ![](https://depurandoadvpl.files.wordpress.com/2019/05/lb06.png?w=660)
+
