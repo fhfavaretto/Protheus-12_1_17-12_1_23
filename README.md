@@ -206,9 +206,129 @@ Após clicar em **“Avançar”** vamos escrever o nome da instância criada na
 ![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-321.png?w=660)
 
 
+# Passo 3: Configuração do nosso TOTVS AppServer
+
+O TOTVS | **Application Server** foi desenvolvido em ANSI C++ e, portanto, independe de API´s especificadas para funcionar. Desta forma, o núcleo do TOTVS | Application Server pode ser recompilado em todos os sistemas operacionais e plataformas que suportem ANSI C++. Outra preocupação durante o desenvolvimento foi garantir total compatibilidade dos repositórios de objetos **(RPO`s)** e das correções dos repositórios **(Patch´s)** entre os sistemas operacionais e plataformas.
+
+
+Após essa rápida explicação do portal TDN, vamos configurar o nosso servidor de aplicação. Dentro da pasta **“TOTVS12”**  temos a pasta **“Protheus”** e dentro dela a **“bin”**, na pasta “bin” temos o nosso executável **“AppServer.exe”** e seu arquivo de configuração o **“appserver.ini”** 
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-33.png)
+
+
+Duplo click no “appserver.ini” e aparecerá a seguintes configurações, caso queira se aprofundar mais na configuração favor acessar o link.
+
+
+[AppServer TDN](http://tdn.totvs.com/display/tec/Application+Server)
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-34.png)
+
+ *   [DEPURANDOADVPL] <- **Nome do servidor**
+ *   SourcePath=C:\TOTVS12\Protheus\apo\ <- **Caminho para o RPO**
+ *   RootPath=C:\TOTVS12\protheus_data\ <- **Caminho para a pasta system e system load**
+ *   StartPath=\system\
+ *   formPath=C:\TOTVS12\Protheus\rpoform\ <- **Caminho para o RPO de formulas**
+ *   RpoDb=top
+ *   RpoLanguage=por
+ *   RpoVersion=120
+ *   LocalFiles=CTREE
+ *   localdbextension=.dtc
+ *   DBDATABASE=MSSQL <- **Qual banco de dados utilizado** 
+ *   DBSERVER=localhost <- **Caminho onde se encontra o DbAcess**
+ *   DBALIAS=TOTVS12 <- **Nome do banco de dados criado**
+ *   DBCONTYPE=TCPIP <- **Tipo conexão** 
+ *   DBPORT=7890 <- **Porta do DbAcess**
+ *   SPECIALKEY=TOTVS12
+ *   DisableAskTOP=1
+ *    MaxQuerySize=47940
+ *   INACTIVETIMEOUT=900
+ *   TOPMemoMega=1
+ *   TAFMultint=1
+
+ *   ;=============================================
+ *   ;============== **CONFIG GERAIS** ===================
+ *   ;=============================================
+
+ *   [Drivers]
+ *   Active=tcp
+
+ *   [TCP]
+ *   TYPE=TCPIP
+ *   Port=1500 <- **Porta do Appserver para conexão**
+
+ *   [Service]
+ *   Name=TOTVS12
+ *   DisplayName=TOTVS 12
+
+ *   [TDS]
+ *   allowApplyPatch=*
+ *   ALLOWEDIT=*
+
+
+    Após esse breve resumo do **“Appserver.ini”** vamos voltar na pasta **“appserver”** e _criar um atalho_ do **“AppServer.exe”**
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-35-e1532903497890.png?w=660)
+
+
+E no _atalho_ criado iremos efetuar _o mesmo procedimento que no DbAcess_ , clicar com o botão direito do mouse e selecionar **propriedades** . Na parte de Destino iremos adicionar o comando de execução **-CONSOLE**
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-36.png)
+
+
+Feito isso basta clicar em “OK” e depois um duplo clique no atalho do “Appserver.exe” e adicionar as permissões ao Windows Defender Firewall
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-37.png?w=660)
+
+
+Feito isso o nosso Appserver está online
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-38.png?w=660)
 
 
 
+Feito isso vamos voltar na pasta “bin” só que desta vez abriremos a pasta “smartclient” e um duplo clique no arquivo de configuração o “smartclient.ini”:
 
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-391.png?w=660)
+
+
+* [config]
+* lastmainprog=SIGAMDI
+* BrowserEnabled=0
+
+* [drivers]
+* active=tcp
+
+* [DEPURANDOADVPL] <- **Nome da conexão** 
+* server=localhost <- **Caminho do appserver** 
+* port=1500 <- **Porta do appserver** 
+
+ Agora com o DbAcess e Appserver Online
+
+
+ ![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-40.png?w=660)
+
+
+ Na pasta **“smartclient”** vamos executar com um duplo clique o **“smartclient.exe”**
+
+
+ ![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-41.png?w=660)
+
+
+
+Irá aparecer a tela de conexão inicial do smartclient perguntando qual o programa que vamos executar , qual comunicação iremos usar e qual o nome do servidor do appserver, por padrão irá aparecer igual a imagem e basta clicar em “OK”
+
+
+![](https://depurandoadvpl.files.wordpress.com/2018/01/foto-42.png?w=660)
+
+
+Na tela de login é só informar que o usurário é “admin” e a senha pode deixar em branco e clicar em “Entrar”:
 
 
